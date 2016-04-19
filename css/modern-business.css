@@ -1,0 +1,253 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 60%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    padding-top: 5px;
+	padding-left: 8%;
+	padding-right: 8%;
+	background-color:#808080;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.navbar-custom {
+  float: left;
+  height: 70px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.navbar-custom:hover,
+.navbar-custom:focus {
+  text-decoration: none;
+}
+.navbar-custom > img {
+  display: block;
+}
+
+.navbar-custom1 {
+  float: right;
+  height: 70px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.navbar-custom1:hover,
+.navbar-custom1:focus {
+  text-decoration: none;
+}
+.navbar-custom1 > img {
+  display: block;
+}
+
+.panel-headingo365 {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color:#F4450B;
+  color:#FFF;
+}
+.panel-headingo365 > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+
+.panel-headingazure {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color:#0099FF;
+  color:#FFF;
+}
+.panel-headingazure > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+
+.panel-headingserver {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color:#0000FF;
+  color:#FFF;
+}
+.panel-headingserver > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+
+.panel-heading10 {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color:#0066FF;
+  color:#FFF;
+}
+.panel-heading10 > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+
+.panel-trial {
+  padding: 2px 15px;
+  border-bottom: 1px solid transparent;
+  background-color:#CCCCCC;
+  color:#F30;
+}
+
+.panel-foot {
+  border-color:transparent;
+}
+
+.panelf {
+  margin-bottom: 20px;
+  background-color:transparent;
+  color:#FFF;
+}
+
+.fh4 {
+	color:#09F;
+}
+
+.ffb {
+	color:#009;
+}
+
+.fig {
+	color:#600;
+}
+
+.ftw {
+	color:#09F;
+}
+
+.flink {
+	color:#FFF;
+}
+
+.flink > a:hover {
+	color:#09F;
+}
+
+.ulazure{
+  list-style: none;
+  margin: 2px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
