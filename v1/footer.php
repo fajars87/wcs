@@ -58,7 +58,7 @@
             </div>
         <div class="row">
             <div class="col-lg-12">
-                <p>&copy; Copyright 2015. PT Wahana Ciptasinatria. All rights reserved.</p>
+                <p>&copy; Copyright 2016. PT Wahana Ciptasinatria. All rights reserved.</p>
             </div>
         </div>
     </footer>
