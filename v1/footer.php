@@ -46,7 +46,7 @@
                         <b>Email:</b><br>
                         <a href="mailto:cloudsupport@wcs.co.id" class="fh4">cloudsupport@wcs.co.id</a></p>
                         <ul class="list-inline">
-                            <li><a href="https://www.facebook.com/WCS-Cloud-Solution-1071088069602377/" class="ffb"><i class="fa fa-2x fa-facebook-square"></i></a>
+                            <li><a href="https://www.facebook.com/wcs.cloudsolution/" class="ffb"><i class="fa fa-2x fa-facebook-square"></i></a>
                             </li>
                             <li><a href="https://www.instagram.com/wcscloud/" class="fig"><i class="fa fa-2x fa-instagram"></i></a>
                             </li>
