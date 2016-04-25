@@ -77,6 +77,41 @@
     })
     </script>
 
+    <div id="modal_signup" class="modal hide fade in" style="display: none;">
+        <div class="modal-header">
+            <a class="close" data-dismiss="modal">×</a>
+            <h3>- E-CONTACT FORM -</h3>
+            <p>Silahkan isi formulir yang telah kami sediakan di bawah ini, kami akan segera menghubungi Anda</p>
+        </div>
+        <div class="modal-body">
+            <form class="contact" name="contact">
+                <label class="label" for="name">Nama*</label><br>
+                <input type="text" name="name" class="input-xlarge"><br>
+                <label class="label" for="jabatan">Jabatan</label><br>
+                <input type="text" name="jabatan" class="input-xlarge"><br>
+                <label class="label" for="company">Nama Perusahaan*</label><br>
+                <input type="text" name="company" class="input-xlarge"><br>
+                <label class="label" for="email">Your E-mail*</label><br>
+                <input type="email" name="email" class="input-xlarge"><br>
+                <label class="label" for="mobile">Mobile Phone*</label><br>
+                <input type="text" name="mobile" class="input-xlarge"><br>
+                <label class="label" for="office">Office Phone*</label><br>
+                <input type="text" name="office" class="input-xlarge"><br>
+                <br>
+                <input type="checkbox" name="kebutuhan1" id="kebutuhan1" value="Price List">Price List<br>
+                <input type="checkbox" name="kebutuhan2" value="Info detil solusi & produk" checked id="kebutuhan2">Info detil solusi & produk<br>
+                <input type="checkbox" name="kebutuhan3" value="Daftar Event / pelatihan" id="kebutuhan3">Daftar Event / pelatihan<br>
+                <input type="checkbox" name="kebutuhan4" value="Lainnya :" id="kebutuhan4">Lainnya :<input style="display:inline; width:30%;" name="lainnyaText" type="text" tabindex="1" id="lainnyaText"><br>
+                <label class="label" for="message">Enter a Message</label><br>
+                <textarea name="message" class="input-xlarge"></textarea>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <input class="btn btn-success" type="submit" value="Send!" id="submit">
+            <a href="#" class="btn" data-dismiss="modal">Nah.</a>
+        </div>
+    </div>
+
 </body>
 
 </html>

@@ -22,6 +22,25 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <script>
+        $(document).ready(function () {
+            $("input#submit").click(function(){
+                $.ajax({
+                    type: "POST",
+                    url: "process.php", // 
+                    data: $('form.contact').serialize(),
+                    success: function(msg){
+                        $("#thanks").html(msg)
+                        $("#modal_signup").modal('hide');   
+                    },
+                    error: function(){
+                        alert("failure");
+                    }
+                });
+            });
+        });
+    </script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
